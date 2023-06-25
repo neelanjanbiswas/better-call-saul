@@ -1,0 +1,101 @@
+{% extends 'nav.html' %}
+
+{% block title %}HOME{% endblock title %}
+{% block style %}
+<style>
+    .img {
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        padding-left: 100vh;
+    }
+
+    .quote {
+        font-size: 36px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        /* Adjust the height as needed */
+
+    }
+
+    .ri {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rule {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+</style>
+{% endblock style %}
+
+{% block body %}
+<a class='img' href="/contact"><img src="/static/img/law.avif" alt="saul img"></a>
+<p class="quote">
+    Fundamental Rights
+</p>
+<p class="rule">
+    <b> 1. Right to Equality (Articles 14 – 18) </b>
+
+    Right to equality is one of the important fundamental rights of Indian constitution that guarantees equal rights for
+    everyone, irrespective of religion, gender, caste, race or place of birth. It ensures equal employment opportunities
+    in the government and insures against discrimination by the State in matters of employment on the basis of caste,
+    religion, etc. This right also includes the abolition of titles as well as untouchability.
+
+    <br>
+    <br>
+    <b> 2. Right to Freedom (Articles 19 – 22)</b>
+
+    Freedom is one of the most important ideals cherished by any democratic society. The Indian Constitution guarantees
+    freedom to citizens. The freedom right includes many rights such as:
+    <br>
+<div class="ri">
+    <b>Freedom of speech
+        <br> Freedom of expression
+        <br> Freedom of assembly without arms
+        <br> Freedom of association
+        <br> Freedom to practise any profession
+        <br> Freedom to reside in any part of the country
+    </b>
+</div>
+<br>
+<br>
+        Some of these rights are subject to certain conditions of state security, public morality and decency and friendly relations with foreign countries. This means that the State has the right to impose reasonable restrictions on them.
+
+    <br>
+    <br>
+    <b> 3. Right against Exploitation (Articles 23 – 24)</b>
+
+        This right implies the prohibition of traffic in human beings, begar, and other forms of forced labour. It also implies the prohibition of children in factories, etc. This Constitution prohibits the employment of children under 14 years inhazardous conditions.
+
+    <br>
+    <br>
+    <b> 4. Right to Freedom of Religion (Articles 25 – 28) </b>
+
+    This indicates the secular nature of Indian polity. There is equal respect given to all religions. There is freedom of
+    conscience, profession, practice and propagation of religion. The State has no official religion. Every person has the
+    right to freely practice his or her faith, establish and maintain religious and charitable institutions.
+
+    <br>
+    <br>
+    <b> 5. Cultural and Educational Rights (Articles 29 – 30) </b>
+
+    These rights protect the rights of religious, cultural and linguistic minorities, by facilitating them to preserve their
+    heritage and culture. Educational rights are for ensuring education for everyone without any discrimination.
+
+    <br>
+    <br>
+    <b> 6. Right to Constitutional Remedies (32 – 35) </b>
+
+    The Constitution guarantees remedies if citizens’ fundamental rights are violated. The government cannot infringe upon
+    or curb anyone’s rights. When these rights are violated, the aggrieved party can approach the courts. Citizens can even
+    go directly to the Supreme Court which can issue writs for enforcing fundamental rights.
+</p>
+
+{% endblock body %}
