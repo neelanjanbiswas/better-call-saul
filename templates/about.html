@@ -1,0 +1,116 @@
+{% extends 'nav.html' %}
+
+{% block title %}ABOUT {% endblock title %}
+{% block style %}
+<style>
+    img{
+        float: right;
+        /* height: auto; */
+        height: 100vh;
+        width: auto;
+        
+    }
+    .infor {
+        font-size: 36px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh; /* Adjust the height as needed */
+
+}
+
+
+.details{
+    font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:15px;
+}
+footer{
+    width: 209.9vh;
+    margin-top: 130px;
+  }
+
+
+{% comment %} 
+
+/* for mobile  */
+@media screen and (min-width:360px) {
+    img{
+        float: none;
+        height: 350px;
+        width: 425px;
+    }
+    footer{
+    width: 425px;
+    /* margin-top: 13px; */
+    }
+
+
+  .details{
+    font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:5px;
+    }
+.infor {
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+    }
+}
+
+
+
+/* for tablet  */
+@media screen and (min-width:750px) {
+    img{
+        float: none;
+        height: 600px;
+        width: 810px;
+    }
+    footer{
+    width: 810px;
+    
+    }
+
+
+  .details{
+    font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:5px;
+    }
+.infor {
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+    }
+} {% endcomment %}
+
+</style>
+{% endblock style %}
+
+{% block body %} 
+<div class="pallindrome"></div>
+<a class='img' href="/contact"><img src="/static/img/saul 3.jpg" alt="saul img"></a>
+<h4 class="infor">
+    ABOUT Saul
+</h4>
+
+<p class="details">
+    Saul Goodman is a self-centered and unscrupulous Santa Fe and Albuquerque-based lawyer who embraces his tactics as a Civil and Criminal lawyer and also solved major cases in Albuquerque and Santa Fe including Davis & Main and  Heisenberg Criminal Case
+</p>
+
+
+
+{% endblock body %}
