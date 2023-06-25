@@ -1,6 +1,11 @@
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
 from law import views
+
+admin.site.site_header = "Better Call Saul Employee Login"
+admin.site.index_title = "Welcome"
+
+
 
 urlpatterns = [
     path('', views.index,name='home'),
