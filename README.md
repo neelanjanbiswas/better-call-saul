@@ -15,3 +15,5 @@ to store information of clients I use django db sqlite3 ( return of  /contact pa
 FEEl free to copy my code to  test and modify it
 
 Any suggesstion will be appreciated to improve my skills
+
+to view the page  copy it then locate to the directory in powershell and type python manage.py runserver then type 127.0.0.1:8000 in browser to view (pip install python and pip install django needed)
