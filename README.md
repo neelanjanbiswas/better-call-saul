@@ -1,8 +1,8 @@
-# better-call-saul
-In here I created a webapp using django and html,css ( note open the website in PC or bigger screen not mobile friendly)
+# better-call-saul website using Django and HTML,CSS
+In here I created a webapp using django and html,css ( note open the website in PC or bigger screen it's not mobile friendly)
 This website is created by me after learning django from free code camp 
 
-NOTE[ problems: somehow @mediaquery is not working in css of my website
+NOTE [ problems: somehow @mediaquery is not working in css of my website
       so please open my website in laptop or bigger screen (display it on mobile is not working properly )
 	
        (if anyone can fix that advance appreciation to you from me)
